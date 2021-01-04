@@ -38,3 +38,13 @@ import library `fmt`, `os` and `bufio`, and example code like
     fmt.Print("Enter text: ")
     text, _ := reader.ReadString('\n')
     fmt.Println(text)
+
+# Slice is like array but no array
+slice[low:high] from low to high
+slice[:high] from zero to high
+slice[low:] from low to unlimited
+
+# Map
+map[KeyTypeData]ValueTypeData
+variableMap[key_name]=Value
+delete(variableMap, key)
